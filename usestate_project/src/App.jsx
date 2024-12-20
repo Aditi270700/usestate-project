@@ -1,6 +1,7 @@
 
 import { useState } from 'react'
 import Button from './Button.jsx'
+import Button1 from './Button1.jsx'
 
 function App() {
   let[count,setCounter] = useState(0)
@@ -20,6 +21,7 @@ function App() {
      <button onClick={add}>Increment</button>
      <button onClick={subtract}>Decrement</button>
      <Button />
+     <Button1/>
     </>
   )
 }
